@@ -1,0 +1,18 @@
+.background{
+    padding: 20px;
+    height: 100%;
+    width: 100%;
+    background:
+    url('./images/top-right.png') no-repeat top right,
+    url('./images/top-center.png') repeat top center,
+    url('./images/top-left.png') no-repeat top left,
+    url('./images/right-side.png') repeat-y right,
+    url('./images/left-side.png') repeat-y left,
+    url('./images/bottom-right.png') no-repeat bottom right,
+    url('./images/bottom-center.png') repeat bottom center,
+    url('./images/botton-left.png') no-repeat bottom left;
+}
+
+.background p {
+    padding: 20px;
+}
