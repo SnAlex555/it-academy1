@@ -1,7 +1,27 @@
+
+h1{
+    text-align:center;
+    color: blue;
+    background-color:aqua;
+}
+
+h2{
+    text-align:center;
+    color: blue;
+    background-color:aqua;
+}
+
 table{
-    border: 1;
+    border:1;
 }
-caption {
-    caption-side:top;
-    text-allign:center;
+
+table .th1 {
+    background-color: yellow;
 }
+
+table .th2 {
+    background-image: url("./css/ball.png");
+    background-repeat: repeat-x;
+}
+
+
