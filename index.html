@@ -4,18 +4,20 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
     <title>MAKET_TABLE</title>
 </head>
 <body>
-    <table width="100%"> 
-        <tr style="text-align:center"> 
-    <td width="100%" colspan="2" style="background-color:aqua">
-      <h1 style="color:blue">ПРИВЕТ УЧАСТНИКАМ СОРЕВНОВАНИЙ!</h1>
+    <table class="table"> 
+        <tr> 
+    <td colspan="2" class="header">
+      <h1 class="title">ПРИВЕТ УЧАСТНИКАМ СОРЕВНОВАНИЙ!</h1>
     </td> 
         </tr>
-        <tr style="text-align:left">
-    <td width="20%" style="background-color:yellow" >ВИДЫ СПОРТА 
-         <ul>
+        <tr>
+    <td class="sidebar">
+        <h3 class="menu-title">Виды спорта:</h3>
+         <ul class="menu">
             <li><a href="1">конькобежный спорт</a></li>
             <li><a href="2">биатлон</a></li>
             <li><a href="3">футбол</a></li>
@@ -28,18 +30,18 @@
             <li><a href="10">шашки</a></li>
          </ul>
         </td> 
-    <td width="80%" >ФУТБОЛ
-            <p><img src="./images/football.png" alt="football" style="float:left">
-            <img src="./images/ball.png" alt="ball" style="float:right">
-            Футбол-командный вид спорта,в котором целью является забить мяч в ворота соперника ногами или другими частями теля(кроме рук)большее количества раз,чем команда соперника.
-            Есть 17 оффициальных правил игры,каждое из которых содержит список оговорок и руководящих принципов.Эти правила предназначены для применения на всех уровнях футбола,хотя есть некоторые ихменения для таких групп как юниоры,взрослые,женщины и люди с ограниченными возможностями.Законы очень часто формулировались в общих чертах,которые позволяют упростить их применение в зависимости от характера игры.</p>
+    <td class="main">
+        <h2 class="main-title">ФУТБОЛ</h2>
+        <img class="logo" src="./css/images/football.png" alt="logo">   
+        <p>Футбол-командный вид спорта,в котором целью является забить мяч в ворота соперника ногами или другими частями теля(кроме рук)большее количества раз,чем команда соперника.</p>
+<p>Есть 17 оффициальных правил игры,каждое из которых содержит список оговорок и руководящих принципов.Эти правила предназначены для применения на всех уровнях футбола,хотя есть некоторые ихменения для таких групп как юниоры,взрослые,женщины и люди с ограниченными возможностями.Законы очень часто формулировались в общих чертах,которые позволяют упростить их применение в зависимости от характера игры.</p>
         </p>
         </td>
-        <tr style="text-align:center">
-    <td width="100%" colspan="2" style="background-color:aqua">
-        <h1 style="color:blue">ГЛАВНОЕ НЕ ПОБЕДА, А УЧАСТИЕ!</h1>
+        <tr >
+    <td colspan="2" class="footer">
+        <h2 class="title">ГЛАВНОЕ НЕ ПОБЕДА, А УЧАСТИЕ!</h2>
     </td> 
         </tr>
-        </table>
+    </table>
     
 </body>
