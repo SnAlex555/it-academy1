@@ -1,59 +1,65 @@
-* {
-    box-sizing: border-box;
-  }
+li {
+  display: inline;
+  margin-bottom: 30px;
+}
+
+.container2{
+  padding-top: 30px;
+}
+
+a {
+  padding: 0 30px 0 30px;
+  color: green;
+  font-size: 30px;
+  border-right: solid 3px red ;
+}
+
+.container1 a:hover{
+  color: red;
+}
+.container2 a:hover{
+  color: red;
+}
+
+.container1:last-child{
+  border-right: none;
+}
+
+.container2:last-child{
+  border-right: none;
+}
+
+table{
+  border-collapse: collapse;
+  padding-top: 40px;
+}
+
+ td {
+  width: 50px;
+  height: 50px;
+  border: solid gray 1px;
+ }
+
+table tr:nth-child(odd) td:nth-child(odd) {
+  background: #000;
+}
+
+table tr:nth-child(even) td:nth-child(even) {
+  background: #000;
+}
   
-  body {
-    margin: 0;
-    padding: 0;
-    height: 100%;
-    width: 100%;
-  }
-
-.header {
-    height: 90px;
-    background-color: blue;
-    color:greenyellow;
-    text-align: center;
-    padding-top: 5px;
+table tr:first-child td, table tr:first-child td:nth-child(odd){
+  background: green;
 }
 
-.content{
-    display: flex;
+table tr:last-child td, table tr:last-child td:nth-child(even){
+  background: green;
 }
 
-.sidebar {
-    padding: 20px;
-    float: left;
-    background: yellow;
-    width: 20%;
-    min-width: 100px;
-    min-height: 300px;
-  }
-
-.main {
-    padding: 20px;
-    width: 80%;
-    font-size: large;
-    background: url('./images/ball.png');
-    background-position: right;
-    background-repeat: repeat-y;
+table tr td:first-child, table tr:first-child td:nth-child(odd){
+  background: green !important;
 }
 
-.main-title {
-     text-align: center;
+table tr td:last-child, table tr:last-child td:nth-child(even){
+  background: green !important;
 }
-
-.logo {
-    padding-top: 0;
-    float: left;
-}
-
-.footer {
-    padding: 5px;
-    height: 90px;
-    background-color:blue;
-    color: greenyellow;
-    text-align: center;
-    margin: 0;
-}
-
