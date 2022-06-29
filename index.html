@@ -1,3 +1,52 @@
-<h1>Hello World!
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Homework-8</title>
+</head>
+<body>
+    <!--MAKET_FORM-->
+    <div class="CONTAINER">
+
+        <h4>Для публикации вашей статьи заполните, пожалуйста, следующую форму:</h4>
+
+        <form>
+        <p>Название статьи:</p>
+        <input type="text" name="Название статьи" maxlength="30">
+        </form>
+        
+        <form>
+        <p>Рубрика:</p>
+        <select name="Rubric">
+        <option value="1">программирование</option>
+        <option value="2">работа с базами данных</option>
+        <option value="3">верстка сайтов</option>
+        </select>
+        </form>
+        
+        <form>
+        <p>Публикация:</p>
+        <input type="radio" name="на сайте" value="1">на сайте
+        <input type="radio" name="в журнале" value="2">в журнале
+        <input type="radio" name="на сайте и в журнале" value="3">на сайте и в журнале
+        </form>
+
+        
+        <form><p>Разрешить комментарии:</p>
+        <input type="checkbox" name="commentary" value="yes">
+        </form>
+
+        <form>
+        <p>Текст статьи:</p>
+        <input type="text" name="" >
+        </form>
     
-</h1>
+    <button type="button" type="submit">Опубликовать</button>
+</div>
+
+</body>
+
+</html>

@@ -1,0 +1,21 @@
+
+button{
+    margin-top: 10px;
+}
+
+p{
+    display: inline-block;
+}
+
+input{
+    display: inline-block;
+}
+
+select{
+    display: inline-block;
+}
+
+
+@media screen and (min-width:200px){
+    
+}
