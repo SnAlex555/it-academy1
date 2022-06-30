@@ -5,47 +5,57 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
-    <title>Homework-8</title>
+    <title>Homework-8.2</title>
 </head>
 <body>
-    <!--MAKET_FORM-->
-    <div class="CONTAINER">
+    <!--MAKET_DIV-->
+    <div class="layout">
+        <header class="header">
+            <h1 class="title">Привет участникам соревнований!</h1>
+        </header>
 
-        <h4>Для публикации вашей статьи заполните, пожалуйста, следующую форму:</h4>
+        <div class="container">
 
-        <form>
-        <p>Название статьи:</p>
-        <input type="text" name="Название статьи" maxlength="30">
-        </form>
-        
-        <form>
-        <p>Рубрика:</p>
-        <select name="Rubric">
-        <option value="1">программирование</option>
-        <option value="2">работа с базами данных</option>
-        <option value="3">верстка сайтов</option>
-        </select>
-        </form>
-        
-        <form>
-        <p>Публикация:</p>
-        <input type="radio" name="на сайте" value="1">на сайте
-        <input type="radio" name="в журнале" value="2">в журнале
-        <input type="radio" name="на сайте и в журнале" value="3">на сайте и в журнале
-        </form>
+            <aside class="sidebar">
+                <h3 class="sidebar-title">Виды спорта:</h3>
+                <ul>
+                    <li><a href="#">конькобежный спорт</a></li>
+                    <li><a href="#">биатлон</a></li>
+                    <li><a href="#">футбол</a></li>
+                    <li><a href="#">стрельба из лука</a></li>
+                    <li><a href="#">прыжки в длинну</a></li>
+                    <li><a href="#">прыжки в высоту</a></li>
+                    <li><a href="#">фигурное катание</a></li>
+                    <li><a href="#">синхронное плавание</a></li>
+                    <li><a href="#">шахматы</a></li>
+                    <li><a href="#">шашки</a></li>
+                </ul>
+            </aside>
 
-        
-        <form><p>Разрешить комментарии:</p>
-        <input type="checkbox" name="commentary" value="yes">
-        </form>
 
-        <form>
-        <p>Текст статьи:</p>
-        <input type="text" name="" >
-        </form>
-    
-    <button type="button" type="submit">Опубликовать</button>
-</div>
+            <main class="main">
+                <h2 class="main-title">Футбол</h2>
+                <picture class="logo">
+                    <source media="(max-width: 320px)" >
+                    <source media="(max-width: 768px)" >
+                    <source media="(max-width: 1440px)">
+                    <img src='./css/images/football.png' alt='logo' />
+            <p >Футбол-командный вид спорта,в котором целью является забить мяч в ворота соперника ногами или другими частями тела(кроме рук)большее количества раз,чем команда соперника.</p>
+        <p>Есть 17 оффициальных правил игры,каждое из которых содержит список оговорок и руководящих принципов.Эти правила предназначены для применения на всех уровнях футбола,хотя есть некоторые ихменения для таких групп как юниоры,взрослые,женщины и люди с ограниченными возможностями.Законы очень часто формулировались в общих чертах,которые позволяют упростить их применение в зависимости от характера игры.
+        </p>
+    </main>
+    </div>
+
+    <footer class="footer">
+         <h2>ГЛАВНОЕ НЕ ПОБЕДА, А УЧАСТИЕ!</h2>
+    </footer>
+</body>
+
+    <div class="overlay">
+        <div class="modal">
+            <a href="#">Вступить в клуб</a>
+        </div>
+    </div>
 
 
 </body>
