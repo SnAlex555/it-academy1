@@ -1,0 +1,8 @@
+body{
+    background-image: url("./images/@.svg") no-repeat;
+}
+
+.image{
+    width: 100vh;
+    height: 100vh;
+}
