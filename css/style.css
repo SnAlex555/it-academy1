@@ -1,8 +1,68 @@
-body{
-    background-image: url("./images/@.svg") no-repeat;
-}
+@keyframes translate {
+    0% {
+      transform: translateX(0%);
+    }
+    100% {
+      transform: translateX(100%);
+    }
+  }
+  
+  .animation {
+    background: red;
+    width: 200px;
+    height: 100px;
+    border-radius: 50px;
+    animation-name: translate;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    margin-bottom: 100px;
+  }
+  
+  @keyframes scale {
+    0% {
+      transform: scale(2);
+    }
+  
+    100% {
+      transform: scale(0.5);
+    }
+  }
+  
+  .animation2 {
+    background: blue;
+    width: 100px;
+    height: 100px;
+    border-radius: 70%;
+  }
+  
+  .container:hover .animation2 {
+    animation-name: scale;
+    animation-duration: 5s;
+  }
+  
+  img {
+    filter: grayscale(1);
+    transition: 1s;
+  }
+  
+  .container{
+    display: flex;
+    justify-content: space-between;
+    background-color: yellowgreen;
+  }
 
-.image{
-    width: 100vh;
-    height: 100vh;
-}
+  .container:hover img {
+    filter: grayscale(0);
+  }
+  
+  
+  p {
+    margin-right:20px;
+    font-size: 25px;
+  }
+  
+  .container:hover p {
+    color: blue;
+    border: 3px solid purple;
+    transform: scale(1.1);
+  }
