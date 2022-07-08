@@ -1,19 +1,12 @@
-.container{
-    width: 100vh;
+.form{
+    display: inline-block;
 }
 
 button{
     margin-top: 10px;
 }
 
-p{
-    display: inline-block;
+@media screen and { max-width 561px;
+    
 }
 
-input{
-    display: inline-block;
-}
-
-select{
-    display: inline-block;
-}
